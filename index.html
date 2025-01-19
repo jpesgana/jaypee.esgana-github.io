@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Jaypee Esgana | Illustrator & Graphic Designer</title>
+  </head>
+  <body>
+
+    <!--===== NAV =====-->
+<nav>
+  <header class="l-header">
+    <div class="nav__header">
+      <div class="nav__logo">
+        <a href="#">JP<span>Esgana</span></a>
+      </div>
+      <!-- Menu Button -->
+      <div class="menu-icon" id="menuBtn" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars">☰</i>
+      </div>
+      <!-- Navigation Menu -->
+      <ul id="menuList">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#documents">Documents</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certificates">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+</nav>
+
+    <!--===== HOME =====-->
+    <header id="home">
+      <div class="section__container header__container">
+        <div class="header__content">
+          <h2>Hi, I am</h2>
+          <h1>Jaypee Esgana</h1>
+          <h3>| Graphic Designer | Illustrator |</h3>
+          <p>
+            With a great eye for detail and a passion for typography. My collaborative approach, along with good communication abilities, enables me to work effortlessly with clients and team members to transform creative thoughts into effective visual solutions. I am committed to creating new and engaging designs that leave a lasting impact by remaining up to date on design trends and technologies.
+          </p>
+          
+        </div>
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__btns">
+          <section id="intro">
+          <button1 class="btn" onclick="scrollToIntro(event)">Read More</button1>
+        </div>
+      </div>
+    </header>
+
+    <!--===== INTRO =====-->
+    <section class="section__container intro__container" id="intro">
+      <div class="intro__image">
+        <img src="assets/intro.jpg" alt="intro" />
+      </div>
+
+      <div class="intro__content">
+        <p class="section__subheader">Introduction</p>
+        <h2 class="section__header">About Me</h2>
+        <p class="intro__description">
+          A proud graduate of a diploma in Computer Engineering Technology, having a solid base in hardware and software systems. In the course, I was trained on how to troubleshoot, program, and design computer-based solutions. I loves technology and keeps up-to-date with the latest breakthroughs in the field. Among my best skills are problem-solving and analytical thinking, which enables to solve technical problems. Apart from academics, I believe in teamwork and collaboration, which has helped in the successful completion of many group projects. Being a committed learner, I’m excited to apply my expertise in this fast-evolving tech industry.
+        </p>
+        <div class="intro__grid">
+          <h5>
+            <span><i class="ri-user-line"></i></span> Name
+          </h5>
+          <span>:</span>
+          <p>Jaypee Esgana</p>
+          <h5>
+            <span><i class="ri-phone-line"></i></span> Phone
+          </h5>
+          <span>:</span>
+          <p>09500981301</p>
+          <h5>
+            <span><i class="ri-mail-line"></i></span> Email
+          </h5>
+          <span>:</span>
+          <p>jp13esgana@gmail.com</p>
+        </div>
+        <h4>My Interests</h4>
+        <div class="intro__flex">
+          <div>
+            <span><i class="ri-headphone-line"></i></span> Music
+          </div>
+          <div>
+            <span><i class="ri-smartphone-line"></i></span> Gaming
+          </div>
+           <div>
+            <span><i class="ri-walk-line"></i></span> Dancing
+          </div>
+          <div>
+            <span><i class="ri-film-line"></i></span> Movie ( Action, Anime ,Comedy)
+          </div>
+          <div>
+            <span><i class="ri-camera-line"></i></span> Sports ( Basketball, Volleyball, Badminton)
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--===== SKILLS =====-->
+    <section class="choose">
+      <div class="section__container choose__container">
+        <p class="section__subheader">Why Choose Me</p>
+        <h2 class="section__header">My Experties Area</h2>
+        <div class="choose__grid">
+          <div class="choose__card">
+            <div>
+              <h4>Innotiative Thinking</h4>
+              <h4>80%</h4>
+            </div>
+            <div class="choose__progress" style="--progress: 80%"></div>
+          </div>
+          <div class="choose__card">
+            <div>
+              <h4>Teamwork</h4>
+              <h4>95%</h4>
+            </div>
+            <div class="choose__progress" style="--progress: 95%"></div>
+          </div>
+          <div class="choose__card">
+            <div>
+              <h4>Attention in Detail</h4>
+              <h4>85%</h4>
+            </div>
+            <div class="choose__progress" style="--progress: 85%"></div>
+          </div>
+          <div class="choose__card">
+            <div>
+              <h4>Storytelling</h4>
+              <h4>80%</h4>
+            </div>
+            <div class="choose__progress" style="--progress: 80%"></div>
+          </div>
+          <div class="choose__card">
+            <div>
+              <h4>Graphics Design</h4>
+              <h4>75%</h4>
+            </div>
+            <div class="choose__progress" style="--progress: 75%"></div>
+          </div>
+          <div class="choose__card">
+            <div>
+              <h4>2D & 3D Vector Illustration</h4>
+              <h4>85%</h4>
+            </div>
+            <div class="choose__progress" style="--progress: 85%"></div>
+          </div>
+          <div class="choose__card">
+            <div>
+              <h4>Written & Verbal Communication</h4>
+              <h4>95%</h4>
+            </div>
+            <div class="choose__progress" style="--progress: 95%"></div>
+          </div>
+          <div class="choose__card">
+            <div>
+              <h4>Adobe Illustrator</h4>
+              <h4>70%</h4>
+            </div>
+            <div class="choose__progress" style="--progress: 70%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--===== EDUCATION =====-->
+    <section class="section__container journey__container">
+      <p class="section__subheader">My Qualifications</p>
+      <h2 class="section__header">Awesome Journey</h2>
+      <div class="journey__grid">
+        <div>
+          <div class="journey__grid__header">
+            <span><i class="ri-graduation-cap-line"></i></span> Education
+          </div>
+          <div class="journey__card">
+            <span><i class="ri-circle-fill"></i></span>
+            <div>
+              <h4>Center For Industrial Technology and Enterprise ( CITE )</h4>
+              <h5>Computer Engineering Technology</h5>
+              <p>
+                <span><i class="ri-calendar-fill"></i></span> 2021-2024
+              </p>
+            </div>
+          </div>
+          <div class="journey__card">
+            <span><i class="ri-circle-fill"></i></span>
+            <div>
+              <h4>Santa Fe National HighSchool</h4>
+              <h5>Science Technology Engineering Mathematics ( STEM )</h5>
+              <h5>Graduate With High-Honor</h5>
+              <p>
+                <span><i class="ri-calendar-fill"></i></span> 2017-2019
+              </p>
+            </div>
+          </div>
+          <div class="journey__card">
+            <span><i class="ri-circle-fill"></i></span>
+            <div>
+              <h4>Santa Fe National HighSchool</h4>
+              <h5>Junior High School</h5>
+              <h5>Graduate With-Honor</h5>
+              <p>
+                <span><i class="ri-calendar-fill"></i></span> 2011-2017
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="journey__grid__header">
+            <span><i class="ri-briefcase-line"></i></span> Experience
+          </div>
+          <div class="journey__card">
+            <span><i class="ri-circle-fill"></i></span>
+            <div>
+              <h4>GGS TECHNICAL INFORMATION SERVICES <br>( Probitionary )</h4>
+              <h5>Illustrator / Parts-Analyst / Catalouging</h5>
+              <h5> SEPTEMBER -  DECEMBER </h5>
+              <p>
+                <span><i class="ri-calendar-fill"></i></span> 2024
+              </p>
+            </div>
+          </div>
+          <div class="journey__card">
+            <span><i class="ri-circle-fill"></i></span>
+            <div>
+              <h4>GGS TECHNICAL INFORMATION SERVICES <br>( OJT )</h4>
+              <h5>Illustrator / Parts-Analyst </h5>
+              <h5> MAY - AUGUST </h5>
+              <p>
+                <span><i class="ri-calendar-fill"></i></span> 2023-2024
+              </p>
+            </div>
+          </div>
+          <div class="journey__card">
+            <span><i class="ri-circle-fill"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--===== DOCUMENTS =====-->
+    <section class="section__container service__container" id="documents">
+      <p class="section__subheader">My Supporting Documents</p>
+      <h2 class="section__header">What I Have</h2>
+     <section class="service__grid">
+  <div class="service__card">
+    <span><i class="ri-window-fill"></i></span>
+    <h4>Diploma</h4>
+    <p>
+      <a href="assets/DIPLOMA.pdf" class="btn" aria-label="Download Computer Engineering Diploma">COMPUTER ENGINEERING</a>
+    </p>
+  </div>
+  <div class="service__card">
+    <span><i class="ri-store-line"></i></span>
+    <h4>COE</h4>
+    <p>
+      <a href="assets/COE.pdf" class="btn" aria-label="Download Certification of Employment">CERTIFICATION OF EMPLOYMENT</a>
+    </p>
+  </div>
+  <div class="service__card">
+    <span><i class="ri-smartphone-line"></i></span>
+    <h4>COC</h4>
+    <p>
+      <a href="assets/COC.pdf" class="btn" aria-label="Download Certification of Completion">CERTIFICATION OF COMPLETION</a>
+    </p>
+  </div>
+  <div class="service__card">
+    <span><i class="ri-share-fill"></i></span>
+    <h4>DTS</h4>
+    <p>
+      <a href="assets/DTS.pdf" class="btn" aria-label="Download Dual Training Summary">DUAL TRAINING SUMMARY</a>
+    </p>
+  </div>
+  <div class="service__card">
+    <span><i class="ri-seo-line"></i></span>
+    <h4>AR</h4>
+    <p>
+      <a href="assets/AR.pdf" class="btn" aria-label="Download Accomplishment Report">ACCOMPLISHMENT REPORT</a>
+    </p>
+  </div>
+  <div class="service__card">
+    <span><i class="ri-share-circle-line"></i></span>
+    <h4>Download</h4>
+    <p>
+      <a href="assets/CV.pdf" class="btn" aria-label="Download My Resume">MY RESUME</a>
+    </p>
+  </div>
+</section>
+
+    </section>
+
+    <!--===== MY WORKS IN SCHOOL =====-->
+    <section class="portfolio" id="portfolio">
+      <div class="section__container portfolio__container">
+        <p class="section__subheader">My Portfolio</p>
+        <h2 class="section__header">Recent Works In School</h2>
+        <div class="portfolio__nav">
+          <button class="btn mixitup-control-active" data-filter="all">
+            All
+          </button>
+         <!--===== <button class="btn" data-filter=".web">Web Apps</button>
+          <button class="btn" data-filter=".game">Games</button>
+          <button class="btn" data-filter=".design">Designs</button> =====-->
+        </div>
+        <div class="portfolio__grid">
+          <div class="portfolio__card mix web">
+            <img src="assets/project-1.png" alt="project" />
+          </div>
+          <div class="portfolio__card mix web game">
+            <img src="assets/project-2.png" alt="project" />
+          </div>
+          <div class="portfolio__card mix design">
+            <img src="assets/project-3.png" alt="project" />
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--===== Experience =====-->
+    <section class="banner__container">
+      <div class="banner__content">
+        <h2 class="section__header">One of my works in GGS</h2>
+        <p>
+          Tracing is the process of changing raster images, such as JPEGs or PNGs, into vector graphics. This processes the image and turns it into a scalable vector path. Clean and editable artwork that remains quality at any size makes tracing great for logos, illustrations, and digital design.
+        </p>
+      </div>
+      <div class="banner__image">
+        <img src="assets/tracing.jpg" alt="banner" />
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="experience">
+      <p class="section__subheader">Experience</p>
+      <h2 class="section__header">GGS Technical Information Services</h2>
+
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__header">
+                <div class="client__details">
+                  <img src="assets/me.jpg" alt="client" />
+                  <div>
+                    <h4>Jaypee Esgana</h4>
+                    <h5> Illustrator / Parts-Analyst</h5>
+                  </div>
+                </div>
+              </div>
+              <p>
+                My on-the-job training at GGS Technical Information Services was a developing and enjoyable experience. During this time, I not only refined my talents as an illustrator, but I also actively contributed to meaningful projects, establishing a collaborative and innovative atmosphere. Working alongside experienced employees has given me tremendous insight into the technical information business. I am appreciative for the possibilities provided, and I am departing with a strong sense of success and the ability to apply the skills learned in my future activities.
+              </p>
+            </div>
+          </div>
+          
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!--===== CERTIFICATES =====-->
+    <section class="blog" id="certificates">
+      <div class="section__container blog__container">
+        <p class="section__subheader">CERTIFICATIONS</p>
+        <h2 class="section__header">PARTICIPATION & COMPLETION</h2>
+        <div class="blog__grid">
+          <div class="blog__card">
+            <img src="assets/c1.jpg" alt="blog" />
+            <div>
+              <p>05 April 2022</p>
+              <h4>Assemble Computer Hardware of Computer Systems Servicing </h4>
+            </div>
+          </div>
+          <div class="blog__card">
+            <img src="assets/c2.jpg" alt="blog" />
+            <div>
+              <p>28 JULY 2021</p>
+              <h4>
+                Practicing In Covid-19 Preventive Measures in the Workplace
+              </h4>
+            </div>
+          </div>
+          <div class="blog__card">
+            <img src="assets/c3.jpg" alt="blog" />
+            <div>
+              <p>05 April 2019</p>
+              <h4>Outstanding Achievement In NCAE ( ARTS AND DESIGN TRACK)</h4>
+            </div>
+          </div>
+          <div class="blog__card">
+            <img src="assets/c4.jpeg" alt="blog" />
+            <div>
+              <p>15 - 17 June 2018</p>
+              <h4>Basic Integration Theater Arts Workshop ( BITAW )</h4>
+            </div>
+          </div>
+          <div class="blog__card">
+            <img src="assets/c5.jpeg" alt="blog" />
+            <div>
+              <p>08 - 10 March 2017</p>
+              <h4>Kool Adventure Camp - Youth Servant Leadership Program</h4>
+          </div>
+        </div>
+          <div class="blog__card">
+            <img src="assets/c6.jpeg" alt="blog" />
+            <div>
+              <p>17 June 2017</p>
+              <h4>Art On Isla a Basic Workshop on Storytelling through Film, Acting & Photography</h4>
+            </div>
+          </div>
+      </div>
+    </section>
+
+   <!--===== CONTACT =====-->
+    <section class="contact_section footer__container" id="contact">
+    <form action="https://api.web3forms.com/submit" method="POST"><br>
+        <h4>Contact Me</h4>
+        <input type="hidden" name="access_key" value="c0b4b7b1-c493-482a-b214-18a2b8dbfd5a">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button class="btn" type="submit">Send Message</button>
+    </form>
+    </section>
+
+    <!--===== FOOTER =====-->
+    <footer>
+      <div class="section__container footer__container">
+        <h4>Jaypee Esgana</h4>
+        <ul class="footer__socials">
+          <a href="https://web.facebook.com/jaypee.esgana.13/"><i class="ri-facebook-fill">Facebook</i></a>
+          <a href="skype:live:jp13esgana?chat"><i class="ri-skype-fill">Skype</i></a>
+          <a href="tel:+639500981301"><i class="ri-phone-fill"></i>Call</a>
+          <a href="#"><i class="ri-home-fill">HOME</i></a>
+        </ul>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
